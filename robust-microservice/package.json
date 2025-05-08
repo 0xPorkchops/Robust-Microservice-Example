@@ -1,0 +1,32 @@
+{
+  "name": "robust-microservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/autocannon": "^7.12.7",
+    "@types/express": "^5.0.1",
+    "@types/helmet": "^0.0.48",
+    "@types/node": "^22.15.16",
+    "autocannon": "^8.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "envalid": "^8.0.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "pino": "^9.6.0",
+    "zod": "^3.24.4"
+  }
+}
